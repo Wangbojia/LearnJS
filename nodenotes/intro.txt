@@ -1,9 +1,0 @@
-1. what is node?
-node is not a programming language and not a framework.
-It is a run time environment for JavaScript.
-
-2. How node works
-Non-blocking(asyncronized architecture)
-Node is ideal for I/O intensive apps
-Do not use Node for cpu intensive apps
-Node apps are single threaded
