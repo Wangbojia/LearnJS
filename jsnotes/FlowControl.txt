@@ -1,0 +1,54 @@
+1. if else
+	if(condition){
+		statement
+	}
+	else if (anotherCondition){
+		statement
+	}
+	else{
+
+	}
+
+2. switch case
+	out dated actually
+
+3. loops
+	3.1 For
+		for(initialExpression;condition;incrementExpression){
+			statements.
+		}
+
+		eg. for(let i=0;i<5;i++){
+				console.log('hello')
+		}
+	3.2 While
+		declare a varible outside the loop first
+		let i=0;
+		while(i<=5){
+			i++;
+		}
+
+		
+		# infinite loop
+		while(true){
+
+		}
+
+	3.3 do...while 		excute at leat once(do)
+		let i = 0;
+		do{
+			i++;
+		}while(i<=5);
+
+	3.4 for...in
+		# iterate the property of an object
+		for(let key in person){
+			console.log(key,person[key]) # we cannot use person.key here because person does not have attribute key
+		}
+
+	3.5 for...of
+		# used to iterate items in an array
+		const color = ['red','green','blue']
+		for(let color of colors)
+			console.log(color);
+	

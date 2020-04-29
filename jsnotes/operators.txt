@@ -1,0 +1,53 @@
+1. arithmetic operators
+	+ - * / % **
+
+	Increment ++
+	console.log(++x); increase first and display
+	console.log(x++); print x first and increase
+
+	Decrement, same
+
+2. assignment operators
+	let x = 10;
+	x=x+5， x+=5
+
+3. comparison
+	>= is ok
+	strict equality(type+val)
+	=== 
+	1===1
+	loose equality(val)
+	==
+	'1'===1 is false
+	!== not equal to
+
+4. Ternay Operator(conditional operator)
+	let points = 110;
+	let type = points>100?'gold':'silver'
+
+5. Logical Op
+	&& and
+	|| or
+	!  not
+
+	Falsy:
+		undefined
+		null
+		0
+		false
+		''
+		NaN
+	Truthy:
+		everything except falsy
+
+6. Bitwise Op
+	binary 1 : 00000001   8bit = 1byte
+	binary 2 : 00000010
+	bitwise or: |
+		if any 1: 1
+		1|2 = 3
+	bitwise and: &
+		if not 1 and 1: 0
+
+7. Precedence of Operators
+	
